@@ -14,7 +14,7 @@
 
     <hr>
     <?php if (! empty($projects)): ?>
-        <h4><?= t('I want to receive notifications only for those projects:') ?></h4>
+        <h4><?= t('I want to receive notifications only for these projects:') ?></h4>
         <?= $this->form->checkboxes('notification_projects', $projects, $notifications) ?>
     <?php endif ?>
 
